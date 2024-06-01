@@ -1,0 +1,92 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    background: rgb(203, 203, 216);
+    height:8vh;
+    /* position: fixed;
+    z-index: 100; */
+}
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+
+}
+.nav-logo img{
+    width: 7vh;
+    height: 4vh;
+    margin-right: 20px;
+    
+}
+.nav-logo p{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(84, 84, 24);
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.nav-menu li{
+    margin-left: 20px;
+    list-style: none;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    position: relative;
+    
+}
+.nav-menu hr{
+    border: none;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(30, 187, 51);
+    transition: 0.3s;
+    position: absolute;
+    left: 50%;
+
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 170px;
+    
+}
+.btn{
+    outline: none;
+    color: rgb(198, 225, 216);
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 30px;
+    margin-right: 20px;
+    background: black;
+    width: 60px;
+    height: 45px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background: rgb(157, 92, 92);
+    color: white;
+    border: 0px red;
+}
+.nav-car-count{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: -35px;
+    /* margin-left: -55px;  */
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}

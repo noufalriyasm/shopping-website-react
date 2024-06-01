@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-left:5%;
+    width: 90%;
+    padding: 10px;
+    background: rgb(156, 155, 155);
+   
+    
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
